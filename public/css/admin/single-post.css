@@ -1,0 +1,123 @@
+
+/* ---POST--- */
+
+.title-dashboard {
+    display: flex;
+    align-items: center;
+    margin: 60px 0px 30px 0px;
+}
+.title-dashboard i {
+    position: relative;
+    height: 35px;
+    width: 35px;
+    background-color: var(--background-color1);
+    border-radius: 6px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+.title-dashboard span {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.title-dashboard a {
+    background-color: rgb(211, 136, 66);
+    padding: 4px 8px;
+    color: #fff;
+    margin-left: 30px;
+    border-radius: 6px;
+    transition: background-color 0.3s;
+    font-weight: 500;
+}
+.title-dashboard a:hover {
+    background-color: rgb(231, 154, 82);
+}
+.title-dashboard .delete-btn {
+    background-color: rgb(202, 31, 31);
+    padding: 7px 10px;
+    color: #fff;
+    margin-left: 10px;
+    border-radius: 6px;
+    transition: background-color 0.3s;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+.title-dashboard .delete-btn:hover {
+    background-color: rgb(216, 37, 37);
+}
+.container-post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-post img {
+    width: 300px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+}
+.container-post span {
+    text-align: center;
+    font-size: 1.2rem;
+    word-spacing: 1px;
+    line-height: 30px;
+    padding: 0px 20;
+}
+
+/* ---COMMENTS--- */
+
+.title-comments {
+    margin-top: 5rem;
+}
+.title-comments h2 {
+    font-size: var(--title-size);
+}
+.container-comments {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    width: 100%;
+}
+.item-comment {
+    display: flex;
+    margin-bottom: 2.2rem;
+}
+.img-comment img {
+    width: 55px;
+    margin-right: 1rem;
+    border-radius: 50%;
+}
+.content-comment a {
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: var(--text-color);
+    transition: all 0.3s;
+}
+.content-comment button {
+    background-color: rgb(202, 31, 31);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 2px 4px;
+    margin-left: 5px;
+    transform: background-color 0.3s;
+}
+.content-comment button:hover {
+    background-color: rgb(216, 37, 37);
+}
+.content-comment a:hover {
+    color: var(--blue-color);
+}
+.content-comment p {
+    margin-top: 5px;
+}
+.data-comment {
+    color: var(--second-color);
+    font-size: 0.9rem;
+}
